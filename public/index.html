@@ -33,29 +33,38 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="center">
         <h1>Chris Fortier</h1>
         <img src='assets/img/chris_fortier.jpg' alt='Chris Fortier'>
       </div>
 
-      <div class="row">
-        <h2>Project #2</h2>
-        <h4>View: {}</h4>
-        <h4>Github: {}</h4>
-      </div>
-
-      <div class="row">
-        <h2>Project #3</h2>
-        <h4>View: {}</h4>
-        <h4>Github: {}</h4>
-      </div>
-
-      <div class="row">
-        <h2>Project #4</h2>
-        <h4>View: {}</h4>
-        <h4>Github: {}</h4>
-      </div>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>View:</th>
+            <th>Github:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">2</th>
+            <td>{url}</td>
+            <td>{url}</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>{url}</td>
+            <td>{url}</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>{url}</td>
+            <td>{url}</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h2>In 2+ sentences describe who you are and what you do</h2>
       I am currently a Release Engineer working at Adobe in New York. I am originally from Florida but currently live in New Jersey.
