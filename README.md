@@ -1,4 +1,6 @@
 # dwa_p1
+Chris Fortier
+
 CSCI E-15 - Dynamic Web Applications Project 1
 
 # URL:
@@ -8,7 +10,7 @@ The live URL for the site is: `http://p1.fortier.io/`
 This is a super-basic setup of an HTML website. For added funness - I decided to use bootstrap for some formatting.
 
 # Demo:
-<not required for project 1>
+Not required for project 1
 
 # Details:
 Nothing special is needed.
